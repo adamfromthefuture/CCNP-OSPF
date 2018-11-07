@@ -1,0 +1,46 @@
+R01#debug ip ospf adj 
+OSPF adjacency debugging is on
+*Nov  7 17:35:37.754: OSPF-1 ADJ   Gi0/2: Interface going Up
+*Nov  7 17:35:39.885: %SYS-5-CONFIG_I: Configured from console by console
+*Nov  7 17:36:17.757: OSPF-1 ADJ   Gi0/2: end of Wait on interface
+*Nov  7 17:36:17.758: OSPF-1 ADJ   Gi0/2: DR/BDR election
+*Nov  7 17:36:17.759: OSPF-1 ADJ   Gi0/2: Elect BDR 11.11.11.11
+*Nov  7 17:36:17.759: OSPF-1 ADJ   Gi0/2: Elect DR 11.11.11.11
+*Nov  7 17:36:17.760: OSPF-1 ADJ   Gi0/2: Elect BDR 0.0.0.0
+*Nov  7 17:36:17.761: OSPF-1 ADJ   Gi0/2: Elect DR 11.11.11.11
+*Nov  7 17:36:17.761: OSPF-1 ADJ   Gi0/2: DR: 11.11.11.11 (Id)
+*Nov  7 17:36:17.762: OSPF-1 ADJ   Gi0/2:    BDR: none 
+*Nov  7 17:36:23.766: OSPF-1 ADJ   Gi0/2: 2 Way Communication to 44.44.44.44, state 2WAY
+*Nov  7 17:36:23.767: OSPF-1 ADJ   Gi0/2: Neighbor change event
+*Nov  7 17:36:23.767: OSPF-1 ADJ   Gi0/2: DR/BDR election
+*Nov  7 17:36:23.768: OSPF-1 ADJ   Gi0/2: Elect BDR 44.44.44.44
+*Nov  7 17:36:23.769: OSPF-1 ADJ   Gi0/2: Elect DR 11.11.11.11
+*Nov  7 17:36:23.769: OSPF-1 ADJ   Gi0/2: DR: 11.11.11.11 (Id)
+*Nov  7 17:36:23.770: OSPF-1 ADJ   Gi0/2:    BDR: 44.44.44.44 (Id)
+*Nov  7 17:36:23.770: OSPF-1 ADJ   Gi0/2: Nbr 44.44.44.44: Prepare dbase exchange
+*Nov  7 17:36:23.771: OSPF-1 ADJ   Gi0/2: Send DBD to 44.44.44.44 seq 0x274 opt 0x52 flag 0x7 len 32
+*Nov  7 17:36:23.772: OSPF-1 ADJ   Gi0/2: Neighbor change event
+*Nov  7 17:36:23.773: OSPF-1 ADJ   Gi0/2: DR/BDR election
+*Nov  7 17:36:23.774: OSPF-1 ADJ   Gi0/2: Elect BDR 44.44.44.44
+*Nov  7 17:36:23.775: OSPF-1 ADJ   Gi0/2: Elect DR 11.11.11.11
+*Nov  7 17:36:23.775: OSPF-1 ADJ   Gi0/2: DR: 11.11.11.11 (Id)
+*Nov  7 17:36:23.776: OSPF-1 ADJ   Gi0/2:    BDR: 44.44.44.44 (Id)
+*Nov  7 17:36:23.776: OSPF-1 ADJ   Gi0/2: Neighbor change event
+*Nov  7 17:36:23.777: OSPF-1 ADJ   Gi0/2: DR/BDR election
+*Nov  7 17:36:23.777: OSPF-1 ADJ   Gi0/2: Elect BDR 44.44.44.44
+*Nov  7 17:36:23.778: OSPF-1 ADJ   Gi0/2: Elect DR 11.11.11.11
+*Nov  7 17:36:23.779: OSPF-1 ADJ   Gi0/2: DR: 11.11.11.11 (Id)
+*Nov  7 17:36:23.779: OSPF-1 ADJ   Gi0/2:    BDR: 44.44.44.44 (Id)
+*Nov  7 17:36:23.785: OSPF-1 ADJ   Gi0/2: Rcv DBD from 44.44.44.44 seq 0x5B opt 0x52 flag 0x7 len 32  mtu 1500 state EXSTART
+*Nov  7 17:36:23.785: OSPF-1 ADJ   Gi0/2: NBR Negotiation Done. We are the SLAVE
+*Nov  7 17:36:23.786: OSPF-1 ADJ   Gi0/2: Nbr 44.44.44.44: Summary list built, size 1
+*Nov  7 17:36:23.787: OSPF-1 ADJ   Gi0/2: Send DBD to 44.44.44.44 seq 0x5B opt 0x52 flag 0x2 len 52
+*Nov  7 17:36:23.803: OSPF-1 ADJ   Gi0/2: Rcv DBD from 44.44.44.44 seq 0x5C opt 0x52 flag 0x1 len 52  mtu 1500 state EXCHANGE
+*Nov  7 17:36:23.804: OSPF-1 ADJ   Gi0/2: Exchange Done with 44.44.44.44
+*Nov  7 17:36:23.806: OSPF-1 ADJ   Gi0/2: Send LS REQ to 44.44.44.44 length 36
+*Nov  7 17:36:23.806: OSPF-1 ADJ   Gi0/2: Send DBD to 44.44.44.44 seq 0x5C opt 0x52 flag 0x0 len 32
+*Nov  7 17:36:23.824: OSPF-1 ADJ   Gi0/2: Rcv LS UPD from Nbr ID 44.44.44.44 length 76 LSA count 1
+*Nov  7 17:36:23.827: OSPF-1 ADJ   Gi0/2: Synchronized with 44.44.44.44, state FULL
+*Nov  7 17:36:23.828: %OSPF-5-ADJCHG: Process 1, Nbr 44.44.44.44 on GigabitEthernet0/2 from LOADING to FULL, Loading Done
+*Nov  7 17:36:23.837: OSPF-1 ADJ   Gi0/2: Rcv LS REQ from 44.44.44.44 length 36 LSA count 1
+*Nov  7 17:37:03.806: OSPF-1 ADJ   Gi0/2: Nbr 44.44.44.44: Clean-up dbase exchange
